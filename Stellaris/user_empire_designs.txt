@@ -1,0 +1,990 @@
+"Nerubian Empire"
+={
+	key="Nerubian Empire"
+	name_list="MOL3"
+	ship_prefix=""
+	species_name="Nerubian"
+	species_plural="Nerubians"
+	species_class="ART"
+	species_adjective="Nerubian"
+	species_bio=""
+	portrait="art16"
+	name="Nerubian Empire"
+	adjective="Nerubian"
+	authority="auth_dictatorial"
+	government=""
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Azjol-Nerub"
+	planet_class="pc_tundra"
+	system_name="Ahn'Qiraj"
+	initializer=""
+	graphical_culture="avian_01"
+	city_graphical_culture="arthropoid_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_4.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripes.dds"
+		}
+		colors={
+			"orange"
+			"indigo"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Anub'Arak"
+		portrait="art16"
+		texture=0
+		hair=0
+		clothes=0
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room=""
+	spawn_enabled=yes
+	ethic="ethic_fanatic_militarist"
+	ethic="ethic_spiritualist"
+	trait="trait_intelligent"
+	trait="trait_slow_breeders"
+	trait="trait_quick_learners"
+}
+"Technocracy of Hythus"
+={
+	key="Technocracy of Hythus"
+	name_list="MOL2"
+	ship_prefix=""
+	species_name="Hydra"
+	species_plural="Hydrae"
+	species_class="MOL"
+	species_adjective="Hydran"
+	species_bio=""
+	portrait="mol16"
+	name="Technocracy of Hythus"
+	adjective="Hythan"
+	authority="auth_oligarchic"
+	government=""
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Hythea"
+	planet_class="pc_ocean"
+	system_name="Hythus"
+	initializer=""
+	graphical_culture="avian_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_9.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"indigo"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Tulanga"
+		portrait="mol16"
+		texture=0
+		hair=0
+		clothes=0
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room=""
+	spawn_enabled=yes
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	trait="trait_nonadaptive"
+	trait="trait_intelligent"
+	trait="trait_enduring"
+}
+"Xeltek Celestial Communality"
+={
+	key="Xeltek Celestial Communality"
+	name_list="MOL3"
+	ship_prefix="Sun"
+	species_name="Xeltek"
+	species_plural="Xeltek"
+	species_class="ART"
+	species_adjective="Xeltek"
+	species_bio=""
+	portrait="art7"
+	name="Xeltek Celestial Communality"
+	adjective="Sun Worshippers"
+	authority="auth_oligarchic"
+	government="gov_irenic_bureaucracy"
+	ftl=wormhole
+	weapon="tech_missiles_1"
+	planet_name="Maat"
+	planet_class="pc_desert"
+	system_name="Anum"
+	initializer=""
+	graphical_culture="avian_01"
+	city_graphical_culture="arthropoid_01"
+	empire_flag={
+		icon={
+			category="ornate"
+			file="flag_ornate_16.dds"
+		}
+		background={
+			category="backgrounds"
+			file="triangle_split.dds"
+		}
+		colors={
+			"null"
+			"orange"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Noxious"
+		portrait="art7"
+		texture=0
+		hair=0
+		clothes=4
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_authoritarian_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophobe"
+	ethic="ethic_pacifist"
+	ethic="ethic_spiritualist"
+	civics={
+		"civic_agrarian_idyll"
+		"civic_inwards_perfection"
+	}
+	trait="trait_weak"
+	trait="trait_communal"
+	trait="trait_conformists"
+}
+"Jeruna Empire"
+={
+	key="Jeruna Empire"
+	name_list="MOL2"
+	ship_prefix=""
+	species_name="Jeruna"
+	species_plural="Jerunas"
+	species_class="ART"
+	species_adjective="Jerunan"
+	species_bio=""
+	portrait="art10"
+	name="Jeruna Empire"
+	adjective="Jerunan"
+	authority="auth_imperial"
+	government="gov_star_empire"
+	ftl=hyperdrive
+	weapon="tech_missiles_1"
+	planet_name="Kayatawee"
+	planet_class="pc_desert"
+	system_name="Tahca-Kayatawee"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="arthropoid_01"
+	empire_flag={
+		icon={
+			category="domination"
+			file="domination_13.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"dark_green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Lox-Celm"
+		portrait="art10"
+		texture=0
+		hair=0
+		clothes=1
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_xenophobe_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_militarist"
+	civics={
+		"civic_police_state"
+		"civic_nationalistic_zeal"
+	}
+	trait="trait_fleeting"
+	trait="trait_communal"
+	trait="trait_rapid_breeders"
+	trait="trait_sedentary"
+	trait="trait_adaptive"
+}
+"Cult of Dyss"
+={
+	key="Cult of Dyss"
+	name_list="MOL1"
+	ship_prefix=""
+	species_name="Dyss"
+	species_plural="Dyssani"
+	species_class="MOL"
+	species_adjective="Dyan"
+	species_bio=""
+	portrait="mol12"
+	name="Cult of Dyss"
+	adjective="Dyan"
+	authority="auth_dictatorial"
+	government="gov_theocratic_dictatorship"
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Eurith's Passion"
+	planet_class="pc_ocean"
+	system_name="Eurith's Patience"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_3.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"indigo"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Ik'Daoru"
+		portrait="mol12"
+		texture=6
+		hair=0
+		clothes=3
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_hive_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_spiritualist"
+	civics={
+		"civic_slaver_guilds"
+		"civic_functional_architecture"
+	}
+	trait="trait_enduring"
+	trait="trait_intelligent"
+	trait="trait_slow_breeders"
+}
+"Technocracy of Hazi"
+={
+	key="Technocracy of Hazi"
+	name_list="FUN1"
+	ship_prefix=""
+	species_name="Tsa"
+	species_plural="Tsa"
+	species_class="FUN"
+	species_adjective="Tsan"
+	species_bio=""
+	portrait="fun1"
+	name="Technocracy of Hazi"
+	adjective="Hazian"
+	authority="auth_democratic"
+	government="gov_rational_consensus"
+	ftl=hyperdrive
+	weapon="tech_lasers_1"
+	planet_name="Hazaria"
+	planet_class="pc_tropical"
+	system_name="Hazi"
+	initializer=""
+	graphical_culture="fungoid_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag={
+		icon={
+			category="spherical"
+			file="flag_spherical_8.dds"
+		}
+		background={
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors={
+			"black"
+			"turquoise"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Mashgirg"
+		portrait="fun1"
+		texture=4
+		hair=0
+		clothes=0
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_xenophobe_room"
+	spawn_enabled=yes
+	ethic="ethic_egalitarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_materialist"
+	civics={
+		"civic_technocracy"
+		"civic_meritocracy"
+	}
+	trait="trait_natural_engineers"
+	trait="trait_repugnant"
+	trait="trait_adaptive"
+}
+"Saña Commonwealth"
+={
+	key="Saña Commonwealth"
+	name_list="MOL3"
+	ship_prefix="Voidship"
+	species_name="Saña"
+	species_plural="Saña"
+	species_class="MOL"
+	species_adjective="Sañan"
+	species_bio=""
+	portrait="mol15"
+	name="Saña Commonwealth"
+	adjective="Sañan"
+	authority="auth_democratic"
+	government="gov_moral_democracy"
+	ftl=hyperdrive
+	weapon="tech_mass_drivers_1"
+	planet_name="Xotha"
+	planet_class="pc_alpine"
+	system_name="Xotha"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag={
+		icon={
+			category="blocky"
+			file="flag_blocky_5.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal_stripe.dds"
+		}
+		colors={
+			"dark_purple"
+			"null"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Sirthi"
+		portrait="mol15"
+		texture=4
+		hair=0
+		clothes=3
+		ruler_title_female="Great"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_xenophobe_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophobe"
+	ethic="ethic_pacifist"
+	ethic="ethic_materialist"
+	civics={
+		"civic_efficient_bureaucracy"
+		"civic_inwards_perfection"
+	}
+	trait="trait_extremely_adaptive"
+	trait="trait_repugnant"
+	trait="trait_fleeting"
+}
+"Rek'vas Piratic Coalition"
+={
+	key="Rek'vas Piratic Coalition"
+	name_list="MAM1"
+	ship_prefix=""
+	species_name="Rek'vas"
+	species_plural="Rek'vasi"
+	species_class="MAM"
+	species_adjective="Rek'vas"
+	species_bio=""
+	portrait="mam17"
+	name="Rek'vas Piratic Coalition"
+	adjective="Rek'vas"
+	authority="auth_oligarchic"
+	government="gov_military_junta"
+	ftl=hyperdrive
+	weapon="tech_mass_drivers_1"
+	planet_name="Ilissa"
+	planet_class="pc_ocean"
+	system_name="Abnateh"
+	initializer=""
+	graphical_culture="reptilian_01"
+	city_graphical_culture="avian_01"
+	empire_flag={
+		icon={
+			category="pirate"
+			file="flag_pirate_9.dds"
+		}
+		background={
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"dark_purple"
+			"null"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Vir J'Dallot"
+		portrait="mam17"
+		texture=0
+		hair=0
+		clothes=4
+		ruler_title="Rapscallion"
+		ruler_title_female="Rapscallion"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_militarism_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_militarist"
+	civics={
+		"civic_mining_guilds"
+		"civic_cutthroat_politics"
+	}
+	trait="trait_industrious"
+	trait="trait_solitary"
+	trait="trait_quick_learners"
+	trait="trait_wasteful"
+	trait="trait_rapid_breeders"
+}
+"United Eldzukian Technocracy"
+={
+	key="United Eldzukian Technocracy"
+	name_list="MAM2"
+	ship_prefix="Research Ship"
+	species_name="Eldzukian"
+	species_plural="Eldzukians"
+	species_class="REP"
+	species_adjective="Eldzukian"
+	species_bio=""
+	portrait="rep1"
+	name="United Eldzukian Technocracy"
+	adjective="Eldzukian"
+	authority="auth_democratic"
+	government="gov_rational_consensus"
+	ftl=hyperdrive
+	weapon="tech_missiles_1"
+	planet_name="Mami"
+	planet_class="pc_arctic"
+	system_name="Aranon Mami"
+	initializer=""
+	graphical_culture="reptilian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_5.dds"
+		}
+		background={
+			category="backgrounds"
+			file="double_hemispheres.dds"
+		}
+		colors={
+			"dark_grey"
+			"yellow"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Raldirm den Piriam"
+		portrait="rep1"
+		texture=0
+		hair=0
+		clothes=4
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_pacifist_room"
+	spawn_enabled=yes
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_technocracy"
+		"civic_meritocracy"
+	}
+	trait="trait_intelligent"
+	trait="trait_natural_engineers"
+	trait="trait_sedentary"
+}
+"Xeltek Research Institute"
+={
+	key="Xeltek Research Institute"
+	name_list="ART3"
+	ship_prefix=""
+	species_name="Xeltek"
+	species_plural="Xeltek"
+	species_class="ART"
+	species_adjective="Xeltek"
+	species_bio="This offshoot of the Xeltek Celestial Communality has completely reorganised their political structure and have vastly different ideals from their brethren. These Xeltek believe that, in contrast to their past, science and technology is the natural extension of the Xeltek's capabilities. After silencing any dissidents the reborn Xeltek now reaches for the stars once again!"
+	portrait="art7"
+	name="Xeltek Research Institute"
+	adjective="Xeltek"
+	authority="auth_democratic"
+	government="gov_rational_consensus"
+	ftl=hyperdrive
+	weapon="tech_missiles_1"
+	planet_name="New Maat"
+	planet_class="pc_desert"
+	system_name="Fallen Anum"
+	initializer=""
+	graphical_culture="avian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="ornate"
+			file="flag_ornate_24.dds"
+		}
+		background={
+			category="backgrounds"
+			file="triangle_split.dds"
+		}
+		colors={
+			"dark_purple"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Grasse de'Neil"
+		portrait="art7"
+		texture=3
+		hair=0
+		clothes=1
+		ruler_title="Chief Scientist"
+		ruler_title_female="Chief Scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_authoritarian_room"
+	spawn_enabled=yes
+	ethic="ethic_pacifist"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_meritocracy"
+		"civic_technocracy"
+	}
+	trait="trait_intelligent"
+	trait="trait_natural_physicists"
+	trait="trait_sedentary"
+	trait="trait_talented"
+	trait="trait_weak"
+}
+"United Federation of Planets"
+={
+	key="United Federation of Planets"
+	name_list="HUM4"
+	ship_prefix="USS"
+	species_name="Human"
+	species_plural="Humans"
+	species_class="HUM"
+	species_adjective="Human"
+	species_bio=""
+	portrait="human"
+	name="United Federation of Planets"
+	adjective="Federation"
+	authority="auth_democratic"
+	government="gov_military_commissariat"
+	ftl=warp
+	weapon="tech_lasers_1"
+	planet_name="Terra"
+	planet_class="pc_continental"
+	system_name="Sol"
+	initializer="sol_system_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_8.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"dark_blue"
+			"dark_blue"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="John Luc Picard"
+		portrait="human_male_01"
+		texture=0
+		hair=0
+		clothes=4
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_militarism_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_xenophile"
+	ethic="ethic_militarist"
+	civics={
+		"civic_distinguished_admiralty"
+		"civic_meritocracy"
+	}
+	trait="trait_quick_learners"
+	trait="trait_talented"
+}
+"Jibru Trading Syndicate"
+={
+	key="Jibru Trading Syndicate"
+	name_list="PLANT3"
+	ship_prefix=""
+	species_name="Jibru"
+	species_plural="Jibru"
+	species_class="FUN"
+	species_adjective="Jibru"
+	species_bio=""
+	portrait="fun14"
+	name="Jibru Trading Syndicate"
+	adjective="Jibru"
+	authority="auth_oligarchic"
+	government="gov_megacorporation"
+	ftl=warp
+	weapon="tech_mass_drivers_1"
+	planet_name="Neboria"
+	planet_class="pc_arctic"
+	system_name="Neborithar"
+	initializer=""
+	graphical_culture="reptilian_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag={
+		icon={
+			category="pointy"
+			file="flag_pointy_11.dds"
+		}
+		background={
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors={
+			"burgundy"
+			"burgundy"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Iris Hawthorn"
+		portrait="fun14"
+		texture=3
+		hair=0
+		clothes=3
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_pacifist_room"
+	spawn_enabled=yes
+	ethic="ethic_egalitarian"
+	ethic="ethic_fanatic_materialist"
+	civics={
+		"civic_corporate_dominion"
+		"civic_meritocracy"
+	}
+	trait="trait_thrifty"
+	trait="trait_sedentary"
+	trait="trait_rapid_breeders"
+}
+"Sagratzian Mining League"
+={
+	key="Sagratzian Mining League"
+	name_list="AVI3"
+	ship_prefix=""
+	species_name="Sagratzian"
+	species_plural="Sagratzians"
+	species_class="AVI"
+	species_adjective="Sagratzian"
+	species_bio=""
+	portrait="avi10"
+	name="Sagratzian Mining League"
+	adjective="Sagratzian"
+	authority="auth_democratic"
+	government="gov_representative_democracy"
+	ftl=wormhole
+	weapon="tech_mass_drivers_1"
+	planet_name="Tyida's Sphere"
+	planet_class="pc_alpine"
+	system_name="Tyida's Influence"
+	initializer=""
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="avian_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="new_dawn.dds"
+		}
+		colors={
+			"brown"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=female
+		name="Eyes of Burgundy"
+		portrait="avi10"
+		texture=4
+		hair=0
+		clothes=1
+		ruler_title_female="Master Trader"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_pacifist_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_egalitarian"
+	ethic="ethic_xenophile"
+	civics={
+		"civic_mining_guilds"
+		"civic_functional_architecture"
+	}
+	trait="trait_sedentary"
+	trait="trait_rapid_breeders"
+	trait="trait_industrious"
+}
+"Combine of Karabon"
+={
+	key="Combine of Karabon"
+	name_list="PLANT3"
+	ship_prefix="ISS"
+	species_name="Hydrax"
+	species_plural="Hydraxi"
+	species_class="MOL"
+	species_adjective="Hydraxian"
+	species_bio=""
+	portrait="mol16"
+	name="Combine of Karabon"
+	adjective="Karabon"
+	authority="auth_dictatorial"
+	government="gov_military_dictatorship"
+	ftl=hyperdrive
+	weapon="tech_mass_drivers_1"
+	planet_name="Karab"
+	planet_class="pc_tundra"
+	system_name="Karabon"
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_24.dds"
+		}
+		background={
+			category="backgrounds"
+			file="horizontal.dds"
+		}
+		colors={
+			"burgundy"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Olive Hawthorn"
+		portrait="mol16"
+		texture=0
+		hair=0
+		clothes=0
+		ruler_title="Keeper of Peace"
+		ruler_title_female="Keeper of Peace"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_xenophobe_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_militarist"
+	civics={
+		"civic_slaver_guilds"
+		"civic_police_state"
+	}
+	trait="trait_decadent"
+	trait="trait_industrious"
+	trait="trait_rapid_breeders"
+	trait="trait_sedentary"
+	trait="trait_strong"
+}
+"The Collective"
+={
+	key="The Collective"
+	name_list="HIVE"
+	ship_prefix="Autonomous"
+	species_name="Endless"
+	species_plural="Endless"
+	species_class="PLANT"
+	species_adjective="Endless"
+	species_bio=""
+	portrait="pla12"
+	name="The Collective"
+	adjective="Collective"
+	authority="auth_hive_mind"
+	government="gov_hive_mind"
+	ftl=hyperdrive
+	weapon="tech_mass_drivers_1"
+	planet_name="Origin"
+	planet_class="pc_alpine"
+	system_name="Ender"
+	initializer=""
+	graphical_culture="plantoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_20.dds"
+		}
+		background={
+			category="backgrounds"
+			file="vertical.dds"
+		}
+		colors={
+			"beige"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Collective"
+		portrait="pla12"
+		texture=2
+		hair=0
+		clothes=0
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_xenophobe_room"
+	spawn_enabled=yes
+	ethic="ethic_hive_mind"
+	civics={
+		"civic_hive_one_mind"
+		"civic_hive_divided_attention"
+	}
+	trait="trait_extremely_adaptive"
+	trait="trait_rapid_breeders"
+	trait="trait_sedentary"
+	trait="trait_fleeting"
+	trait="trait_repugnant"
+}
+"Sylvari Reavers"
+={
+	key="Sylvari Reavers"
+	name_list="PLANT"
+	ship_prefix="Sharp"
+	species_name="Sylvari"
+	species_plural="Sylvari"
+	species_class="PLANT"
+	species_adjective="Sylvarian"
+	species_bio=""
+	portrait="pla6"
+	name="Sylvari Reavers"
+	adjective="Sylvarian"
+	authority="auth_oligarchic"
+	government="gov_purification_committee"
+	ftl=wormhole
+	weapon="tech_missiles_1"
+	planet_name="Pale Tree"
+	planet_class="pc_tropical"
+	system_name="Mordremoth"
+	initializer=""
+	graphical_culture="plantoid_01"
+	city_graphical_culture="plantoid_01"
+	empire_flag={
+		icon={
+			category="zoological"
+			file="flag_zoological_22.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"dark_green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name="Rhizome of Silver"
+		portrait="pla6"
+		texture=0
+		hair=0
+		clothes=1
+		ruler_title="Root"
+		ruler_title_female="Root"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="ethic_materialist_room"
+	spawn_enabled=yes
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_militarist"
+	civics={
+		"civic_fanatic_purifiers"
+		"civic_efficient_bureaucracy"
+	}
+	trait="trait_adaptive"
+	trait="trait_sedentary"
+	trait="trait_solitary"
+	trait="trait_conformists"
+}
